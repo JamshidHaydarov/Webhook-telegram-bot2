@@ -8,8 +8,10 @@ import logging
 from random import randint
 from django.core.mail import send_mail
 
-TOKEN = '6800792594:AAHawTDYb7E-9m2neK17pvnb-B4PrL0wXOA'
-API = 'abcc7c55c1ab485aa61042eefbe799b0'
+# Токен телеграм бота
+TOKEN = Token
+# API ключ с сайта openweathermap.org
+API = Api
 bot = telebot.TeleBot(TOKEN)
 country = None
 
